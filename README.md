@@ -1,5 +1,22 @@
-XenonStack Web
+XenonStack-Web
 ==============
+Web app for xenonstack.com
+
+
+Components
+----------
+
+ # Wireframe
+   PSD/HTML templates for pages.
+
+ # Plone Theme
+   Plone theme product.
+
+
+Authors
+-------
+ * Ankita Dhiman
+ * Abhay Arora ([@itsstark](https://github.com/itsstark))
 
 
 License
