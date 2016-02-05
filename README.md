@@ -6,10 +6,10 @@ Web app for xenonstack.com
 Components
 ----------
 
- 1. # Wireframe
-    PSD/HTML templates for pages.
+ * Wireframe
+   PSD/HTML templates for pages.
 
- 2. # Plone Theme
+ * Plone Theme
    Plone theme product.
 
 
