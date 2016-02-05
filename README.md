@@ -7,9 +7,11 @@ Components
 ----------
 
  * Wireframe
+
    PSD/HTML templates for pages.
 
  * Plone Theme
+
    Plone theme product.
 
 
