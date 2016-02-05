@@ -3,16 +3,14 @@ XenonStack-Web
 Web app for xenonstack.com
 
 
-Components
-----------
+Wireframe
+---------
+PSD/HTML templates for pages.
 
- * Wireframe
 
-   PSD/HTML templates for pages.
-
- * Plone Theme
-
-   Plone theme product.
+Plone Theme
+-----------
+Plone theme product.
 
 
 Authors
