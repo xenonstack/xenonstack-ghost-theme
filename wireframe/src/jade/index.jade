@@ -1,0 +1,141 @@
+doctype html
+html
+    head
+        title RayFarm
+        link(rel='stylesheet', href='css/rayfarm.min.css', async)
+    body
+
+        .wrapper
+            section#cover
+                .wrapper
+                    section#top-bar
+                        .container
+                            .row
+                                .col-md-6.pull-left
+                                    img.brand(src='images/rayfarm.png')
+
+                                .col-md-6.pull-right
+                                    ul.nav
+                                        li
+                                            a(href='https://play.google.com/store/apps/details?id=com.rayfarm.rayfarm') Download the Mobile App
+                                        li
+                                            a.button(href='http://ray.farm/sign-up') Join RayFarm
+                    div#cover-text
+                        .container
+                            .row
+                                .col-md-6
+                                    .slider.unslider
+                                        ul
+                                            li
+                                                h1 Farmers&acute;
+                                                    span Marketplace
+                                                p Sell directly to consumers; get the maximum out of your produce. RayFarm provides an e-commerce platform for farmers willing to sell healthy food, local farm products, livestock, farm equipments and art.
+                                            li
+                                                h1 Search&nbsp;
+                                                    span Organic Food
+                                                p Search for organic food grown in your near-by farms. Place orders online; visit farms; know how your favorite foods are grown. RayFarm enables web presence for farmers.
+                                            li
+                                                h1 Find Customers&nbsp;
+                                                    span Nearby
+                                                p RayFarm keeps track of customer search and update farmers with latest demand from their nearby consumers. It helps match consumer and farmer; hence easing the process for both.
+                                            li
+                                                h1 Visit&nbsp;
+                                                    span Farms
+                                                p Schedule a visit to the farm; get in touch with farmers. Encourage discussion on organic food growing practices with your farmer friends. Get awareness on the food you consume.
+                                            li
+                                                h1 Pre-Order&nbsp;
+                                                    span Online
+                                                p Place orders for crops, vegetables, fruits and other farm produce in process. It may relieve farmer from worries of selling the produce. Visit farm to get update on the produce you bought.
+                                .col-md-6.app-slider-wrapper.visible-lg
+                                    .app-slider.unslider
+                                        ul
+                                            li
+                                                img.cover-image(src='images/snapshots/1.png')
+                                            li
+                                                img.cover-image(src='images/snapshots/2.png')
+                                            li
+                                                img.cover-image(src='images/snapshots/3.png')
+                                            li
+                                                img.cover-image(src='images/snapshots/4.png')
+                                            li
+                                                img.cover-image(src='images/snapshots/5.png')
+
+            section#search
+                .wrapper
+                    .container
+                        .row
+                            .col-md-8.col-md-offset-2
+                                h2 Search
+                                div.search-bar
+                                    select(name='type', id='searchType')
+                                        option(value='crops') Crops
+                                        option(value='vegetables') Vegetables
+                                        option(value='fruits') Fruits
+                                    input(type='text', id='searchTerms', placeholder='Search crops, food, farms and cattle', name='keywords')
+                                    button(id='searchClick') Search
+
+            //section#features
+            //    .wrapper
+            //        .container
+            //            .row
+            //                .col-md-12.text-center
+            //                    h2 RayFarm Platform
+            //            .row
+            //                .col-md-3.feature
+            //                    img(src='images/features/1.png')
+            //                    h3 Easy of use
+            //                    p Some text here. Some text here again. Some text here. Some text here again. Some text here. Some text here again. Some text here. Some text here again. Some text here. Some text here again.
+            //                .col-md-3.feature
+            //                    img(src='images/features/1.png')
+            //                    h3 Easy of use
+            //                    p Some text here. Some text here again. Some text here. Some text here again. Some text here. Some text here again. Some text here. Some text here again. Some text here. Some text here again.
+            //                .col-md-3.feature
+            //                    img(src='images/features/1.png')
+            //                    h3 Easy of use
+            //                    p Some text here. Some text here again. Some text here. Some text here again. Some text here. Some text here again. Some text here. Some text here again. Some text here. Some text here again.
+            //                .col-md-3.feature
+            //                    img(src='images/features/1.png')
+            //                    h3 Easy of use
+            //                    p Some text here. Some text here again. Some text here. Some text here again. Some text here. Some text here again. Some text here. Some text here again. Some text here. Some text here again.
+
+            section#join
+                .wrapper
+                    .container
+                        .row
+                            .col-md-6.col-md-offset-3
+                                h2 Join RayFarm
+                                p Create your web presence; get a personalized website. Join the RayFarm family and encourage organic food practices. Join our mission for awareness of health, farm products and process.
+                                a.button(href='http://ray.farm/sign-up') Join RayFarm
+
+            footer
+                .wrapper
+                    .container
+                        .row
+                            .col-md-4
+                                h3 &nbsp;
+                                ul
+                                    li
+                                        a(href='http://rayfarm.in')
+                                            img(src='images/rayfarm-white.png' style='width: 40%;')
+                            .col-md-4
+                                h3 News Updates
+                                ul
+                                    li
+                                        a January 17, 2016 - RayFarm launched in Ludhiana. Receives warm welcome from local farmers.
+                                    li
+                                        a &nbsp;
+                                    li
+                                        a December 25, 2015 - RayFarm mobile app is now available on play store. To download now visit https://play.google.com/store/apps/details?id=com.rayfarm.rayfarm
+                            .col-md-4
+                                h3 RayFarm
+                                ul
+                                    li
+                                        a(href='http://rayarm.in') RayFarm
+                                    li
+                                        a(href='http://rayarm.in/search') Search Farmers
+                                    li
+                                        a(href='http://ray.farm/sign-up') Join RayFarm
+                        .row.copyright
+                            .col-md-12 Copyright &copy; 2016, RayFarm. All rights reserved.
+
+        script(type='text/javascript', async, src='js/rayfarm.min.js')
