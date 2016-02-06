@@ -8,23 +8,22 @@ module.exports = function(grunt) {
                     }
                 },
                 files: {
-                    "dist/index.html": ["src/jade/index.jade"],
-                    "dist/search/index.html": ["src/jade/search/index.jade"]
+                    "dist/index.html": ["src/jade/index.jade"]
                 }
             }
         },
         uglify: {
             options:{
                 banner : '/*' +
-                ' * RayFarm' +
-                ' * Author: Abhay Arora (https://github.com/itsstark)' +
-                ' * Copyright (c) 2016, RayFarm.' +
+                ' * XenonStack.com' +
+                ' * Authors: Ankita Dhimam (https://github.com/xankdhi), Abhay Arora (https://github.com/itsstark)' +
+                ' * Copyright (c) 2016, XenonStack LLC.' +
                 ' */',
                 sourceMap: true
             },
             my_target: {
                 files: {
-                    'dist/js/rayfarm.min.js': [ 'src/js/vendor/*.js', 'src/js/*.js']
+                    'dist/js/xenonstack.min.js': [ 'src/js/vendor/*.js', 'src/js/*.js']
                 }
             }
         },
@@ -45,7 +44,7 @@ module.exports = function(grunt) {
             },
             target: {
                 files: {
-                    'dist/css/rayfarm.min.css': ['src/css/vendor/*.css', 'src/css/*.css', 'src/tmp/css/*.css']
+                    'dist/css/xenonstack.min.css': ['src/css/vendor/*.css', 'src/css/*.css', 'src/tmp/css/*.css']
                 }
             }
         },

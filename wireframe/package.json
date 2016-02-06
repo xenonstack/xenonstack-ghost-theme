@@ -1,6 +1,6 @@
 {
-  "name": "AkiraAnalytics.com",
-  "version": "1.0.0",
+  "name": "xenonstack.com",
+  "version": "2.0.0",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "~0.6.1",
