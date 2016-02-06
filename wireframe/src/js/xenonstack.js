@@ -12,7 +12,6 @@ Copyright (c) 2016, XenonStack LLC.
     _B = _D.body;
 
     $(document).ready(function () {
-      $(document).foundation();
     });
 
 })(window);
