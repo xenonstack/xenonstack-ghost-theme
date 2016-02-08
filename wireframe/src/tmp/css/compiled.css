@@ -72,18 +72,67 @@ ul.navbar-nav li a {
 #header ul.navbar-nav li a:hover {
   color: #000000;
 }
-#cover {
+#stack {
+  padding: 30px 0px;
+}
+#stack h1 {
+  font-size: 50px;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0px;
+  color: #000000;
+}
+#stack p {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #666666;
+  font-weight: 200;
+  margin: 10px 0px;
+}
+#stack .stack {
+  margin: 30px 0px;
+}
+#stack .stack .stack-full {
+  float: left;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #FFFFFF;
+}
+#stack .stack .stack-half {
+  float: left;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #FFFFFF;
+}
+#stack .stack .stack-one-fourth {
+  float: left;
+  width: 45%;
+  height: 200px;
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #FFFFFF;
+}
+#stack .stack .stack-one-fourth.first {
+  margin-right: 10%;
+}
+#products-slider {
   background: linear-gradient(45deg, #4C95D1, #7ABE43);
   color: #FFFFFF;
   font-weight: 100;
 }
-#cover h1,
-#cover h2,
-#cover h3,
-#cover h4 {
+#products-slider h1,
+#products-slider h2,
+#products-slider h3,
+#products-slider h4 {
   font-weight: 300;
 }
-#cover .slide {
+#products-slider .slide {
   padding: 50px 0px;
   min-height: 300px;
 }
