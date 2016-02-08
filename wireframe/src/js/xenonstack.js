@@ -12,6 +12,11 @@ Copyright (c) 2016, XenonStack LLC.
     _B = _D.body;
 
     $(document).ready(function () {
+      $('.slider').unslider({
+        autoplay: true,
+        arrows: false,
+        nav: true
+      });
     });
 
 })(window);
