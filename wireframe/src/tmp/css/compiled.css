@@ -35,3 +35,40 @@ ul.navbar-nav li a {
 #top-bar ul.navbar-nav li a:hover {
   color: #FFFFFF;
 }
+.colored-border {
+  float: left;
+  width: 100%;
+}
+.colored-border .sec {
+  float: left;
+  width: 25%;
+}
+.colored-border .c1 {
+  border-bottom: 5px #EF4426 solid;
+}
+.colored-border .c2 {
+  border-bottom: 5px #4C95D1 solid;
+}
+.colored-border .c3 {
+  border-bottom: 5px #FDBA1D solid;
+}
+.colored-border .c4 {
+  border-bottom: 5px #7ABE43 solid;
+}
+#header {
+  background: #FFFFFF;
+  border-bottom: 1px #DDDDDD solid;
+}
+#header img.header-logo {
+  height: 80px;
+}
+#header ul.navbar-nav li a {
+  line-height: 80px;
+  font-size: 15px;
+  margin: 0px 10px;
+  color: rgba(0, 0, 0, 0.75);
+  transition: color 0.5s ease-in-out;
+}
+#header ul.navbar-nav li a:hover {
+  color: #000000;
+}

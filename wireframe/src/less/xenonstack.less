@@ -1,6 +1,13 @@
 @C1: rgba(0,0,0,0.75);
 @C2: #DDDDDD;
 @C3: #FFFFFF;
+@C4: #EEEEEE;
+@C5: #000000;
+
+@CP1: #EF4426;
+@CP2: #4C95D1;
+@CP3: #FDBA1D;
+@CP4: #7ABE43;
 
 *{
   padding: 0px;
@@ -50,4 +57,49 @@ ul.navbar-nav{
     }
   }
 
+}
+
+.colored-border{
+  float: left;
+  width: 100%;
+  .sec{
+    float: left;
+    width: 25%;
+  }
+  .c1{
+    border-bottom: 5px @CP1 solid;
+  }
+  .c2{
+    border-bottom: 5px @CP2 solid;
+  }
+  .c3{
+    border-bottom: 5px @CP3 solid;
+  }
+  .c4{
+    border-bottom: 5px @CP4 solid;
+  }
+}
+
+#header{
+  background: @C3;
+  border-bottom: 1px @C2 solid;
+
+  img.header-logo{
+    height: 80px;
+  }
+  ul.navbar-nav{
+    li{
+      a{
+        line-height: 80px;
+        font-size: 15px;
+        margin: 0px 10px;
+        color: @C1;
+        transition: color 0.5s ease-in-out;
+
+        &:hover{
+          color: @C5;
+        }
+      }
+    }
+  }
 }
