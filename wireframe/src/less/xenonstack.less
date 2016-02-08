@@ -1,0 +1,53 @@
+@C1: rgba(0,0,0,0.75);
+@C2: #DDDDDD;
+@C3: #FFFFFF;
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  font-family: "Work Sans", "Helvetica Nueu", "Helvetica", sans-serif;
+}
+
+.wrapper{
+  float: left;
+  width: 100%;
+}
+
+ul.navbar-nav{
+  list-style: none;
+  float: left;
+
+  li{
+    float: left;
+    a{
+      float: left;
+      text-decoration: none;
+    }
+  }
+}
+
+#top-bar{
+  background: @C1;
+  color: @C2;
+  font-weight: 300;
+
+  ul.navbar-nav{
+    li{
+      a{
+        line-height: 25px;
+        font-size: 13px;
+        color: @C2;
+        margin: 8px 20px;
+        transition: color 0.4s ease-in-out;
+
+        &:hover{
+          color: @C3;
+        }
+      }
+    }
+  }
+
+}
