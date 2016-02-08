@@ -9,6 +9,12 @@
 @CP3: #FDBA1D;
 @CP4: #7ABE43;
 
+@CBB: rgba(76, 149, 209, 0);
+@CBBH: rgba(76, 149, 209, 0.15);
+
+@C6: linear-gradient(45deg, @CP2, @CP4);
+@C7: #666666;
+
 *{
   padding: 0px;
   margin: 0px;
@@ -105,5 +111,52 @@ ul.navbar-nav{
 }
 
 #cover{
+  background: @C6;
+  color: @C3;
+  font-weight: 100;
 
+  h1, h2, h3, h4 {
+    font-weight: 300;
+  }
+
+  .slide{
+    padding: 50px 0px;
+    min-height: 300px;
+  }
+}
+
+#verticals{
+  padding: 50px 0px;
+
+  .vertical{
+    text-align: center;
+
+    h3{
+      font-size: 25px;
+      font-weight: 400;
+      color: @CP2;
+      margin: 5px 0px;
+    }
+    p{
+      font-weight: 300;
+      margin: 10px 0px;
+      font-size: 17px;
+      line-height: 25px;
+      color: @C7;
+      margin-bottom: 30px;
+    }
+    a.button{
+      text-decoration: none;
+      background: @CBB;
+      border: 2px @CP2 solid;
+      color: @CP2;
+      padding: 7px 13px;
+      border-radius: 5px;
+      font-weight: 400;
+
+      &:hover{
+        background: @CBBH;
+      }
+    }
+  }
 }

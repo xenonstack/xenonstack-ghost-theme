@@ -72,3 +72,50 @@ ul.navbar-nav li a {
 #header ul.navbar-nav li a:hover {
   color: #000000;
 }
+#cover {
+  background: linear-gradient(45deg, #4C95D1, #7ABE43);
+  color: #FFFFFF;
+  font-weight: 100;
+}
+#cover h1,
+#cover h2,
+#cover h3,
+#cover h4 {
+  font-weight: 300;
+}
+#cover .slide {
+  padding: 50px 0px;
+  min-height: 300px;
+}
+#verticals {
+  padding: 50px 0px;
+}
+#verticals .vertical {
+  text-align: center;
+}
+#verticals .vertical h3 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #4C95D1;
+  margin: 5px 0px;
+}
+#verticals .vertical p {
+  font-weight: 300;
+  margin: 10px 0px;
+  font-size: 17px;
+  line-height: 25px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+#verticals .vertical a.button {
+  text-decoration: none;
+  background: rgba(76, 149, 209, 0);
+  border: 2px #4C95D1 solid;
+  color: #4C95D1;
+  padding: 7px 13px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+#verticals .vertical a.button:hover {
+  background: rgba(76, 149, 209, 0.15);
+}
