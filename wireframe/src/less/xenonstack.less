@@ -197,29 +197,126 @@ ul.navbar-nav{
       color: @C7;
       margin-bottom: 30px;
     }
-    a.button{
-      text-decoration: none;
-      background: @CBB;
-      border: 2px @CP2 solid;
-      color: @CP2;
-      padding: 7px 13px;
-      border-radius: 5px;
-      font-weight: 400;
+  }
+}
 
-      &:hover{
-        background: @CBBH;
-      }
-    }
+a.button{
+  text-decoration: none;
+  background: @CBB;
+  border: 2px @CP2 solid;
+  color: @CP2;
+  padding: 7px 13px;
+  border-radius: 5px;
+  font-weight: 400;
+
+  &:hover{
+    background: @CBBH;
   }
 }
 
 #technologies{
-  border-top: 1px @C4 solid;
-  border-bottom: 1px @C4 solid;
-  padding: 50px 0px;
+  border-top: 1px @C2 solid;
+  padding: 30px 0px;
 
   img{
     float: left;
     width: 100%;
+  }
+}
+
+#company-summary{
+  background: @C4;
+  padding: 100px 0px;
+  border-bottom: 1px @C2 solid;
+
+  h2{
+    font-weight: 200;
+    font-size: 40px;
+    margin: 20px 0px;
+  }
+  p{
+    font-weight: 300;
+    color: @C7;
+    line-height: 25px;
+    font-size: 17px;
+  }
+  .button-area{
+    padding-top: 150px;
+  }
+}
+
+#training{
+  padding: 50px 0px;
+
+  h2{
+    font-weight: 300;
+    color: @CP2;
+    font-size: 40px;
+    margin: 10px 0px;
+  }
+  p{
+    line-height: 25px;
+    font-size: 17px;
+    color: @C7;
+    margin: 20px 0px;
+    font-weight: 300;
+  }
+
+  .split-section{
+    h3{
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 25px;
+      margin-bottom: 30px;
+    }
+    ul{
+      list-style: none;
+      li{
+        float: left;
+        margin-bottom: 30px;
+        span.text{
+          float: left;
+          width: 100%;
+          font-size: 17px;
+          line-height: 25px;
+          font-weight: 300;
+          color: @C7;
+        }
+        span.link{
+          float: left;
+          width: 100%;
+          font-size: 17px;
+          line-height: 25px;
+          font-weight: 300;
+          a{
+            color: @CP2;
+          }
+        }
+      }
+    }
+  }
+  .button-area{
+    padding-top: 50px;
+  }
+}
+
+#services-products-summary{
+  padding: 50px 0px;
+
+  .summary-section{
+    margin-bottom: 80px;
+    h2{
+      font-weight: 300;
+      color: @CP2;
+      font-size: 35px;
+      margin: 10px 0px;
+    }
+    p{
+      line-height: 25px;
+      font-size: 17px;
+      color: @C7;
+      margin: 20px 0px;
+      font-weight: 300;
+    }
   }
 }

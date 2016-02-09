@@ -156,7 +156,7 @@ ul.navbar-nav li a {
   color: #666666;
   margin-bottom: 30px;
 }
-#verticals .vertical a.button {
+a.button {
   text-decoration: none;
   background: rgba(76, 149, 209, 0);
   border: 2px #4C95D1 solid;
@@ -165,15 +165,102 @@ ul.navbar-nav li a {
   border-radius: 5px;
   font-weight: 400;
 }
-#verticals .vertical a.button:hover {
+a.button:hover {
   background: rgba(76, 149, 209, 0.15);
 }
 #technologies {
-  border-top: 1px #EEEEEE solid;
-  border-bottom: 1px #EEEEEE solid;
-  padding: 50px 0px;
+  border-top: 1px #DDDDDD solid;
+  padding: 30px 0px;
 }
 #technologies img {
   float: left;
   width: 100%;
+}
+#company-summary {
+  background: #EEEEEE;
+  padding: 100px 0px;
+  border-bottom: 1px #DDDDDD solid;
+}
+#company-summary h2 {
+  font-weight: 200;
+  font-size: 40px;
+  margin: 20px 0px;
+}
+#company-summary p {
+  font-weight: 300;
+  color: #666666;
+  line-height: 25px;
+  font-size: 17px;
+}
+#company-summary .button-area {
+  padding-top: 150px;
+}
+#training {
+  padding: 50px 0px;
+}
+#training h2 {
+  font-weight: 300;
+  color: #4C95D1;
+  font-size: 40px;
+  margin: 10px 0px;
+}
+#training p {
+  line-height: 25px;
+  font-size: 17px;
+  color: #666666;
+  margin: 20px 0px;
+  font-weight: 300;
+}
+#training .split-section h3 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+#training .split-section ul {
+  list-style: none;
+}
+#training .split-section ul li {
+  float: left;
+  margin-bottom: 30px;
+}
+#training .split-section ul li span.text {
+  float: left;
+  width: 100%;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #666666;
+}
+#training .split-section ul li span.link {
+  float: left;
+  width: 100%;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 300;
+}
+#training .split-section ul li span.link a {
+  color: #4C95D1;
+}
+#training .button-area {
+  padding-top: 50px;
+}
+#services-products-summary {
+  padding: 50px 0px;
+}
+#services-products-summary .summary-section {
+  margin-bottom: 80px;
+}
+#services-products-summary .summary-section h2 {
+  font-weight: 300;
+  color: #4C95D1;
+  font-size: 35px;
+  margin: 10px 0px;
+}
+#services-products-summary .summary-section p {
+  line-height: 25px;
+  font-size: 17px;
+  color: #666666;
+  margin: 20px 0px;
+  font-weight: 300;
 }
