@@ -197,4 +197,15 @@ html
                   p Some text here in the summary. We can explain in detail later in other page. Some text here in the summary. We can explain in detail later in other page.
                   a.button(href='#learn') Learn More
                     
+        #subscribe
+          .container
+            .row
+              .col-md-6
+                h3 Subscribe to our newsletter
+                p Get the latest udpdates and free access to product beta version.
+              .col-md-6
+                form(id="subscribe-newsletter-form", method="POST", action="#")
+                  input(type='email', name='emailAddress')
+                  button(name='submit') Submit
+          
       script(type='text/javascript', src='js/xenonstack.min.js')
