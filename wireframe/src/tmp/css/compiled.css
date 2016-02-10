@@ -269,3 +269,110 @@ a.button:hover {
   border-top: 1px #EEEEEE solid;
   border-bottom: 1px #EEEEEE solid;
 }
+#products-cover {
+  background: url('../images/products-cover-background.jpg');
+  padding: 80px 0px;
+  color: #FFFFFF;
+}
+#products-cover h1 {
+  font-weight: 400;
+  font-size: 50px;
+  margin: 20px 0px;
+}
+#products-cover p {
+  font-weight: 300;
+  color: #EEEEEE;
+  font-size: 20px;
+  line-height: 35px;
+}
+#products-list .product {
+  float: left;
+  width: 100%;
+  padding: 100px 0px;
+  background: #FFFFFF;
+  color: #666666;
+  border-bottom: 1px #EEEEEE solid;
+}
+#products-list .product h1,
+#products-list .product h2,
+#products-list .product h3 {
+  color: #000000;
+}
+#products-list .product.alt {
+  background: #F7F7F7;
+}
+#products-list .product .heading {
+  text-align: center;
+  margin-bottom: 100px;
+}
+#products-list .product .heading h2 {
+  font-size: 33px;
+  font-weight: 400;
+  margin: 30px 0px;
+}
+#products-list .product .heading p {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #000000;
+}
+#products-list .product .summary h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 30px 0px;
+  text-transform: uppercase;
+}
+#products-list .product .summary p {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #666666;
+  margin-bottom: 30px;
+}
+#products-list .product .summary a {
+  text-decoration: none;
+  color: #4C95D1;
+}
+#products-list .product .summary img.screenshot {
+  float: left;
+  width: 96%;
+  padding: 2%;
+}
+#products-thumbnails .thumbnail {
+  float: left;
+  width: 25%;
+  padding: 5% 1%;
+  padding-right: 5%;
+  border-left: 1px #EEEEEE solid;
+}
+#products-thumbnails .thumbnail.model {
+  background: url('../images/3d.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+#products-thumbnails .thumbnail.love {
+  background: url('../images/love.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+#products-thumbnails .thumbnail.heart {
+  background: url('../images/heart.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+#products-thumbnails .thumbnail.genes {
+  background: url('../images/genes.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+#products-thumbnails .thumbnail h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#products-thumbnails .thumbnail p {
+  font-weight: 200;
+}

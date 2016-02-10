@@ -8,7 +8,8 @@ module.exports = function(grunt) {
                     }
                 },
                 files: {
-                    "dist/index.html": ["src/jade/index.jade"]
+                    "dist/index.html": ["src/jade/index.jade"],
+                    "dist/products.html": ["src/jade/products.jade"]
                 }
             }
         },

@@ -14,6 +14,7 @@
 
 @C6: linear-gradient(45deg, @CP2, @CP4);
 @C7: #666666;
+@C8: #F7F7F7;
 
 *{
   padding: 0px;
@@ -326,4 +327,130 @@ a.button{
 
   border-top: 1px @C4 solid;
   border-bottom: 1px @C4 solid;
+}
+
+
+#products-cover{
+  background: url('../images/products-cover-background.jpg');
+  padding: 80px 0px;
+  color: @C3;
+
+  h1{
+    font-weight: 400;
+    font-size: 50px;
+    margin: 20px 0px;
+  }
+  p{
+    font-weight: 300;
+    color: @C4;
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+#products-list{
+
+
+  .product{
+    float: left;
+    width: 100%;
+    padding: 100px 0px;
+    background: @C3;
+    color: @C7;
+    border-bottom: 1px @C4 solid;
+
+    h1, h2, h3{
+      color: @C5;
+    }
+    &.alt{
+      background: @C8;
+    }
+
+    .heading{
+      text-align: center;
+      margin-bottom: 100px;
+      h2{
+        font-size: 33px;
+        font-weight: 400;
+        margin: 30px 0px;
+      }
+      p{
+        font-size: 17px;
+        line-height: 30px;
+        font-weight: 300;
+        color: @C5;
+      }
+    }
+    .summary{
+      h2{
+        font-size: 30px;
+        font-weight: 300;
+        margin: 30px 0px;
+        text-transform: uppercase;
+      }
+      p{
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 300;
+        color: @C7;
+        margin-bottom: 30px;
+      }
+      a{
+        text-decoration: none;
+        color: @CP2;
+      }
+      img.screenshot{
+        float: left;
+        width: 96%;
+        padding: 2%;
+      }
+    }
+  }
+}
+
+#products-thumbnails{
+
+  .thumbnail{
+    float: left;
+    width: 25%;
+    padding: 5% 1%;
+    padding-right: 5%;
+    border-left: 1px @C4 solid;
+
+    &.model{
+      background: url('../images/3d.png');
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+    }
+
+    &.love{
+      background: url('../images/love.png');
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+    }
+
+    &.heart{
+      background: url('../images/heart.png');
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+    }
+
+    &.genes{
+      background: url('../images/genes.png');
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+    }
+    h3{
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    p{
+      font-weight: 200;
+
+    }
+  }
 }
