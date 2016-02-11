@@ -1,18 +1,5 @@
 module.exports = function(grunt) {
     grunt.initConfig({
-        jade: {
-            compile: {
-                options: {
-                    data: {
-                        debug: false
-                    }
-                },
-                files: {
-                    "dist/index.html": ["src/jade/index.jade"],
-                    "dist/products.html": ["src/jade/products.jade"]
-                }
-            }
-        },
         uglify: {
             options:{
                 banner : '/*' +
@@ -24,7 +11,7 @@ module.exports = function(grunt) {
             },
             my_target: {
                 files: {
-                    'dist/js/xenonstack.min.js': [ 'src/js/vendor/*.js', 'src/js/*.js']
+                    'assets/js/xenonstack.min.js': [ 'src/js/vendor/*.js', 'src/js/*.js']
                 }
             }
         },
@@ -45,7 +32,7 @@ module.exports = function(grunt) {
             },
             target: {
                 files: {
-                    'dist/css/xenonstack.min.css': ['src/css/vendor/*.css', 'src/css/*.css', 'src/tmp/css/*.css']
+                    'assets/css/xenonstack.min.css': ['src/css/vendor/*.css', 'src/css/*.css', 'src/tmp/css/*.css']
                 }
             }
         },
@@ -55,7 +42,7 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: 'src/images/',
                     src: ['**/*.{png,jpg,gif}'],
-                    dest: 'dist/images/'
+                    dest: 'assets/images/'
                 }]
             }
         },
@@ -63,7 +50,7 @@ module.exports = function(grunt) {
             fonts: {
                 cwd: 'src/fonts/',
                 src: '*',
-                dest: 'dist/fonts/',
+                dest: 'assets/fonts/',
                 expand: true,
                 flatten: true,
                 filter: 'isFile'
@@ -118,11 +105,10 @@ module.exports = function(grunt) {
     });
 
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-jade');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.registerTask('default', ['jade', 'uglify', 'less', 'cssmin', 'imagemin', 'copy', 'watch']);
+    grunt.registerTask('default', ['uglify', 'less', 'cssmin', 'imagemin', 'copy', 'watch']);
 };
