@@ -1,5 +1,0 @@
-====================
-plonetheme.xenonstack
-====================
-
-User documentation
