@@ -1,4 +1,4 @@
-XenonStack-Web
+XenonStack Web
 ==============
 Web app for xenonstack.com
 
@@ -8,7 +8,7 @@ Wireframe
 PSD/HTML templates for pages.
 
 
-XenonStack Theme
+Ghost Theme
 ----------------
 Ghost theme for xenonstack.com
 
