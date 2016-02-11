@@ -8,9 +8,9 @@ Wireframe
 PSD/HTML templates for pages.
 
 
-Plone Theme
------------
-Plone theme product.
+XenonStack Theme
+----------------
+Ghost theme for xenonstack.com
 
 
 Authors
